@@ -7,7 +7,7 @@ def hopper
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
         },
-        binding.pry
+    
         :alan_kay => {
           :known_for => "Object Orientation",
           :languages => ["Smalltalk", "LISP"]
@@ -19,8 +19,8 @@ def hopper
      }
     
 
-end
-
+end    
+binding.pry
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
 	
